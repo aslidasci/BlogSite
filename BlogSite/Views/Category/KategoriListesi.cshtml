@@ -1,0 +1,21 @@
+﻿@model IEnumerable<BlogSite.Models.Category>
+
+<div id="section-categories" class="card mb-4">
+    <p class="card-header font-weight-bold lead">Kategoriler</p>
+    <div class="row">
+        @foreach (var kategori in Model)
+        {
+            <div class="col-6 pt-2">
+                <ul class="list-unstyled pl-3">
+                    <li>
+                        <a href="/Blog/List/@kategori.Id">@kategori.KategoriAdi</a>
+
+                    </li>
+                    
+                </ul>
+            </div>
+        }
+      
+      
+    </div>
+</div>

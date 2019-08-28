@@ -1,0 +1,20 @@
+﻿body {
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+    background-color: #1B1B1B;
+}
+.navbar {
+    background-color: #1B1B1B;
+    
+}
+.iletisim i {
+    color: #1B1B1B;
+    opacity: 0.9;
+}
+.iletisim i:hover {
+    opacity: 1;
+}
+ 
+        

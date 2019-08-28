@@ -1,0 +1,155 @@
+﻿
+@{
+    ViewBag.Title = "Hakkımda";
+}
+    <style>
+        .yazi {
+    box-shadow: 0.5px 0.5px 10px 1px;
+    box-sizing: border-box;
+    border:1px solid dashed;
+}
+
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding: 3px; /* Add some padding */
+    color: white; /* White text color */
+}
+
+.html {
+    width: 80%;
+    background-color: #1A1E29;
+}
+
+.css {
+    width: 70%;
+    background-color: #1A1E29;
+}
+
+.js {
+    width: 35%;
+    background-color: #1A1E29;
+}
+
+.ef {
+    width: 30%;
+    background-color: #1A1E29;
+}
+
+.bootstrap {
+    width: 45%;
+    background-color: #1A1E29;
+}
+
+.asp {
+    width: 35%;
+    background-color: #1A1E29;
+}
+    </style>
+
+<section id="hakkımda" class="mt-3">
+    <div class="container row mx-auto">
+        <div class="yazi col-lg-8 col-md-10 mx-auto m-5">
+            <div class=" p-5 ">
+
+                <h1 class="font-weight-bold">Hakkımda</h1>
+                <br>
+                <p>Merhaba Ben Aslı.</p>
+
+                <p>Süleyman Demirel Üniversitesi Bilgisayar mühendisliği mezunuyum.Yeni şeyler öğrenmek,kendimi anlamak ve yolculuğumu paylaşmak için yazıyorum.</p>
+
+
+                <p>Oluşturduğum blog, güncel tutmaya çalışacağım bir kütüphane benim için.Her an yanımda olan bir yol arkadaşı.. Bu yolculuğa katılmak istersen beni takip edebilirsin</p>
+            </div>
+
+        </div>
+        <div class="yazi col-lg-8 col-md-10 mx-auto m-5">
+            <div class=" p-5 ">
+
+                <h1 class="font-weight-bold mb-3">Yeteneklerim</h1>
+
+                <div class="container my-3">
+                    <div class="col-lg-4 col-md-4 d-inline-block">
+                        <span class="mr-2">HTML</span>
+                    </div>
+
+                    <div class="skills html d-inline-block col-lg-6 col-md-5"></div>
+                </div>
+
+                <div class="container my-3 ">
+                    <div class="col-lg-4 col-md-4  d-inline-block">
+                        <span class="mr-2">Css</span>
+                    </div>
+
+                    <div class="skills css d-inline-block col-lg-6 col-md-5"></div>
+                </div>
+
+                <div class="container my-3">
+                    <div class="col-lg-4  col-md-4 d-inline-block">
+                        <span class="mr-2">Javascript</span>
+                    </div>
+                    <div class="skills js d-inline-block col-lg-6 col-md-5"></div>
+                </div>
+
+                <div class="container my-3">
+                    <div class="col-lg-4  col-md-4 d-inline-block">
+                        <span class="mr-2">Bootstrap</span>
+                    </div>
+                    <div class="skills bootstrap d-inline-block col-lg-6 col-md-5"></div>
+                </div>
+                <div class="container my-3">
+                    <div class="col-lg-4  col-md-5 d-inline-block">
+                        <span class="mr-2">Asp.net MVC</span>
+                    </div>
+                    <div class="skills asp d-inline-block col-lg-6 col-md-5"></div>
+                </div>
+                <div class="container my-3">
+                    <div class="col-lg-4  col-md-5 d-inline-block">
+                        <span class="mr-2">Entity Framework-Linq</span>
+                    </div>
+                    <div class="skills ef d-inline-block col-lg-6 col-md-5"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="yazi col-lg-8 col-md-10 mx-auto m-5">
+            <div class=" p-5 ">
+
+                <h1 class="font-weight-bold mb-3">Deneyimler</h1>
+
+                <p>
+                    <strong>2017 (1 ay) IATI / Stajyer (Yazılım)</strong>
+                    <br>
+                    Spring ile çalışmalar yapıldı ve şirket çalışanları için rapor  formu  hazırlandı.
+                </p>
+                <br>
+                <p>
+                    <strong> 2015(1 ay) ARJETA / Stajyer (Donanım)</strong>
+                    <br>
+                    Centos işletim sistemi üzerinde DHCP,NTP,FTP,SSH işlemleri yapıldı.Low lewel format atıldı.
+
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Son2
+{
+<footer class="clearfix">
+    <div class="container ">
+        <ul class="list-style-none d-inline float-right mt-3">
+            <li class=" d-inline"><a href="https://www.linkedin.com/in/asl%C4%B1han-d-5a987a146/" class="text-decoration-none text-white mr-3" >Linkedin</a></li>
+            <li class=" d-inline"><a href="https://github.com/aslidasci" class="text-decoration-none text-white mr-3" >Github</a></li>
+            <li class=" d-inline"><a class="text-decoration-none text-white" href="">Twitter</a></li>
+        </ul>
+    </div>
+</footer>
+}

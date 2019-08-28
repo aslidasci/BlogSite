@@ -1,0 +1,28 @@
+﻿@model BlogSite.Models.Blog
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<hr />
+
+            <div class="text-center" >
+                <img class="card-img-top " src="~/Img/img3.jpg" alt="Card image cap" style="width:75%;">
+                <div class="card-body">
+                    <h5 class="card-title font-weight-bold">@Model.Baslik</h5>
+                    <p class="card-text ">@Model.Aciklama</p>
+                    <p>@Model.İcerik</p>
+
+                </div>
+                <div class="card-footer text-muted">@Model.EklenmeTarihi</div>
+
+            </div>
+
+
+
+@section Son
+{
+    <footer class=" text-light text-center py-3">
+        <div class="container ">Copyright © Your Website 2019 </div>
+    </footer>
+}
