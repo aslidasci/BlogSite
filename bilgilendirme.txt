@@ -1,8 +1,0 @@
-Html,Bootstrap,C#,Entity Framework,Linq ile kendi dinamik blog sitemi oluþturdum
-
-YAPILMASI GEREKENLER
--SEARCH kýsmýný kesinleþince yap
--HAKKIMDA KISMINA ÖZEL BÝR ONE PAGE TEMPLATE OLUÞTUR.
-
-
-!70% TAMAMLANDI.
